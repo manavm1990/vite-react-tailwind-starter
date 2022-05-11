@@ -2,13 +2,14 @@
 
 ## TLDR
 
-`npm i` to install all devDependencies (includes ESLint and Prettier). `npm start` to start the app.
+`npm i` to install all devDependencies (includes ESLint and Prettier). `npm start` to start the app. `npm test` to run tests.
 
 ## What's Included
 
 - ESLint using AirBnB style guide, integrated with Prettier for formatting.
 - VS Code extensions and settings to make it all work seamlessly in VS Code.
 - Tailwind CSS for styling.
+- [Vitest (in lieu of Jest)](https://vitest.dev/guide/comparisons.html#jest). Also includes the appropriate VS Code extension.
 
 ### Extensions
 
