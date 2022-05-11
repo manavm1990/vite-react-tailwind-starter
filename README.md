@@ -4,6 +4,8 @@
 
 `npm i` to install all devDependencies (includes ESLint and Prettier). `npm start` to start the app. `npm test` to run tests.
 
+**Update:** You may need to do: `npm i --legacy-peer-deps` until all of the modules get synced up for React 17/18. It will all still work though.
+
 ## What's Included
 
 - ESLint using AirBnB style guide, integrated with Prettier for formatting.
