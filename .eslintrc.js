@@ -8,6 +8,7 @@ module.exports = {
     "plugin:react/recommended",
     "airbnb",
     "plugin:react/jsx-runtime",
+    "plugin:testing-library/react",
     "prettier",
   ],
   parserOptions: {
@@ -18,5 +19,14 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
-  rules: {},
+  rules: {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        devDependencies: true,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+  },
 };
