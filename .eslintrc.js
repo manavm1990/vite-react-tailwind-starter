@@ -6,6 +6,8 @@ module.exports = {
   },
   extends: [
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
     "airbnb",
     "plugin:react/jsx-runtime",
     "plugin:testing-library/react",
@@ -20,6 +22,7 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    "global-require": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -28,5 +31,16 @@ module.exports = {
         peerDependencies: false,
       },
     ],
+    "no-unused-vars": ["warn", { destructuredArrayIgnorePattern: "^_" }],
+  },
+  settings: {
+    "import/resolver": {
+      "eslint-import-resolver-custom-alias": {
+        alias: {
+          "@": "./src",
+        },
+        extensions: [".js", ".jsx"],
+      },
+    },
   },
 };
