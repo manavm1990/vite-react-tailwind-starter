@@ -14,6 +14,7 @@
 - VS Code extensions and settings to make it all work seamlessly in VS Code.
 - Tailwind CSS for styling.
 - [Vitest (in lieu of Jest)](https://vitest.dev/guide/comparisons.html#jest). Also includes the appropriate VS Code extension.
+- Automatic import resolutions for aliasing `@` to `./src/`. If this doesn't mean anything to you, don't worry about it (or ask).
 
 ### Extensions
 
