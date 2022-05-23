@@ -1,3 +1,3 @@
 export default function App() {
-  return <h1 className="font-black my-3 text-8xl text-center">Hello World</h1>;
+  return <h1 className="my-3 text-center text-8xl font-black">Hello World</h1>;
 }
