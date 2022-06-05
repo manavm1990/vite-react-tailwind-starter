@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <h1
-  className="font-black my-3 text-8xl text-center"
+  className="my-3 text-center text-8xl font-black"
 >
   Hello World
 </h1>
