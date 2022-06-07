@@ -15,10 +15,7 @@
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
-  "javascript.inlayHints.parameterNames.enabled": "literals",
-  "javascript.suggest.classMemberSnippets.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
-  "prettier.requireConfig": true,
-  "workbench.view.alwaysShowHeaderActions": true
+  "prettier.requireConfig": true
 }
